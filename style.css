@@ -2,6 +2,7 @@ h1{
     font-size: 45px;
 }
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .name-heighlight{
@@ -15,4 +16,19 @@ body{
 }
 .box img{
     width: 100%;
+}
+.back{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(yellow,orange);
+    border-radius: 10px;
+    color: brown;
+    font-weight: bold;
 }
